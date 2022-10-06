@@ -4,13 +4,17 @@
 
 ## ERCs
 
-- [x] ERC20
+- [x] [ERC20](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC20)
+  - [ ] Core
+  - [ ] Extensions
+  - [ ] Utilites
+
 - [ ] ERC721
 - [ ] ERC1155
 
 ## Protocol
 
-- [ ] Uniswap
+- [ ] [Uniswap](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/Uniswap)
   - [x] v1
   - [ ] v2
   - [ ] v3
@@ -24,9 +28,9 @@
 
 ### Contracts
 
-- [x] SafeMath
+- [x] [SafeMath](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/SafeMath)
 
-- [ ] Access Control
+- [ ] [Access Control](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/Access-Control)
   - [x] Ownable
   - [ ] Access Control
 - [ ] Cryptography
