@@ -9,6 +9,7 @@
   - [ ] Extensions
   - [ ] Utilites
 
+- [ ] ERC165
 - [ ] ERC721
 - [ ] ERC1155
 
