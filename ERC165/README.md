@@ -1,6 +1,6 @@
 # ERC165解读
 
-参考 [OpenZeppelin文档]([Utilities - OpenZeppelin Docs](https://docs.openzeppelin.com/contracts/4.x/api/utils#IERC165)) 并结合自己的理解。
+参考 [OpenZeppelin文档](https://docs.openzeppelin.com/contracts/4.x/api/utils#IERC165) 并结合自己的理解。
 
 ## 什么是ERC165
 
