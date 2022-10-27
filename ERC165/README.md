@@ -35,7 +35,6 @@ pragma solidity ^0.8.0;
 interface IERC165 {
     function supportsInterface(bytes4 interfaceId) external view returns (bool);
 }
-
 ```
 
 如果合约实现了 `interfaceId` 定义的接口，则返回 `true` 
@@ -81,5 +80,3 @@ function supportsInterface(bytes4 interfaceId) public view virtual override(ERC1
         super.supportsInterface(interfaceId);
 }
 ```
-
-
