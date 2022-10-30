@@ -4,7 +4,7 @@
 
 ## 什么是ERC20
 
-ERC20（Ethereum Request for Comments 20）一种代币标准。[EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) 中提出。
+ERC20（Ethereum Request for Comments 20）一种**同质化代币**标准。[EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) 中提出。
 
 ERC20 代币合约追踪同质化（可替代）代币：任何一个代币都完全等同于任何其他代币；没有任何代币具有与之相关的特殊权利或行为。这使得 ERC20 代币可用于交换货币、投票权、质押等。
 
@@ -61,7 +61,7 @@ contract GLDToken is ERC20 {
 
 先来看下 ERC20 的接口（IERC20），这方便我们在开发中直接定义 ERC20 代币。
 
-同样地，OpenZepplin 为我们提供了相应的库，方便开发者导入即用。
+同样地，OpenZeppelin 为我们提供了相应的库，方便开发者导入即用。
 
 ```solidity
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -73,19 +73,19 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 pragma solidity ^0.8.0;
 
 interface IERC20 {
-	event Transfer(address indexed from, address indexed to, uint256 value);
-	event Approval(address indexed owner, address indexed spender, uint256 value);
-	
-	function totalSupply() external view returns (uint256);
-	function balanceOf(address account) external view returns (uint256);
-	function transfer(address to, uint256 amount) external returns (bool);
-	function allowance(address owner, address spender) external view returns (uint256);
-	function approve(address spender, uint256 amount) external returns (bool);
-	function transferFrom(
-		address from,
-		address to,
-		uint256 amount
-	) external returns (bool);
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+
+    function totalSupply() external view returns (uint256);
+    function balanceOf(address account) external view returns (uint256);
+    function transfer(address to, uint256 amount) external returns (bool);
+    function allowance(address owner, address spender) external view returns (uint256);
+    function approve(address spender, uint256 amount) external returns (bool);
+    function transferFrom(
+        address from,
+        address to,
+        uint256 amount
+    ) external returns (bool);
 }
 ```
 
@@ -178,11 +178,14 @@ Approval(owner, spender, value)
 - `spendAllowance(address owner, address spender, uint256 amount)` ：花费 `amount` 数量的 `owner` 授权 `spender` 的代币。在无限 allowance 的情况下不更新 allowance 金额。如果没有足够的余量，则恢复。可能触发 `Approval` 事件。
 
 - `_beforeTokenTransfer(address from, address to, uint256 amount)` ：在任何代币转账前的 Hook 。它包括铸币和烧毁。调用条件：
+  
   - 当 `from` 和 `to` 都不是零地址时，`from` 手里 `amount` 数量的代币将发送给 `to` 。
   - 当 `from` 是零地址时，将给 `to` 铸造 `amount` 数量的代币。
   - 当 `to` 是零地址时，`from` 手里 `amount` 数量的代币将被烧毁。
   - `from` 和 `to` 不能同时为零地址。
+
 - `_afterTokenTransfer(address from, address to, uint256 amount)` ：在任何代币转账后的 Hook 。它包括铸币和烧毁。调用条件：
+  
   - 当 `from` 和 `to` 都不是零地址时，`from` 手里 `amount` 数量的代币将发送给 `to` 。
   - 当 `from` 是零地址时，将给 `to` 铸造 `amount` 数量的代币。
   - 当 `to` 是零地址时，`from` 手里 `amount` 数量的代币将被烧毁。

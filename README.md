@@ -13,6 +13,12 @@
 - [x] [ERC165](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC165)
 
 - [ ] ERC721
+  
+  - [ ] Core
+  
+  - [ ] Extensions
+  
+  - [ ] Utilities
 
 - [ ] ERC1155
 
