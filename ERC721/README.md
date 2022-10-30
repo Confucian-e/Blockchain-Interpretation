@@ -69,3 +69,9 @@ contract GameItem is ERC721URIStorage {
 }
 ```
 
+### IERC721
+
+```solidity
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+```
+
