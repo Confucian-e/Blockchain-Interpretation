@@ -1,6 +1,6 @@
 # ERC20解读
 
-参考 [OpenZepplin文档](https://docs.openzeppelin.com/contracts/4.x/erc20) 和 [以太坊官方开发者文档](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)，结合自己的理解。
+参考 [OpenZeppelin文档](https://docs.openzeppelin.com/contracts/4.x/erc20) 和 [以太坊官方开发者文档](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)，结合自己的理解。
 
 ## 什么是ERC20
 
