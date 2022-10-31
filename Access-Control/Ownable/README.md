@@ -1,6 +1,6 @@
 # 智能合约访问权限控制（入门篇）Ownable.sol
 
-本文参考 [OpenZepplin文档](https://docs.openzeppelin.com/contracts/4.x/api/access) 并结合自己的理解。
+本文参考 [OpenZeppelin文档](https://docs.openzeppelin.com/contracts/4.x/api/access) 并结合自己的理解。
 
 ## 智能合约访问权限非常重要
 
