@@ -46,11 +46,13 @@
   - [ ] v2
   - [ ] v3
 
-- [ ] AAVE
+- [ ] Aave
 
 - [ ] Compound
 
-- [ ] MakerDAO
+- [ ] ENS
+
+- [ ] OpenSea
 
 ## Framework
 
@@ -59,6 +61,8 @@
 - [x] turorial
 
 ### Foundry
+
+- [ ] tutorial
 
 ## EIP
 
