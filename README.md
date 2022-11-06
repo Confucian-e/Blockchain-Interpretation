@@ -6,11 +6,11 @@
 
 ### Utilities
 
-- [x] [SafeMath](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/SafeMath)
+- [x] SafeMath
 
-- [ ] [Access Control](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/Access-Control)
+- [ ] Access Control
   
-  - [x] [Ownable](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/Access-Control/Ownable)
+  - [x] Ownable
   - [ ] Access Control
 
 - [ ] Cryptography
@@ -20,13 +20,13 @@
 
 ### ERC
 
-- [x] [ERC20](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC20)
+- [x] ERC20
 
-  - [x] [Core](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC20/Core)
-  - [ ] [Extensions](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC20/Extensions)
+  - [x] Core
+  - [ ] Extensions
   - [ ] Utilites
 
-- [x] [ERC165](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/ERC165)
+- [x] ERC165
 
 - [ ] ERC721
 
@@ -40,7 +40,7 @@
 
 ## Classic Dapp
 
-- [ ] [Uniswap](https://github.com/Confucian-e/SolidityContract-Interpretation/tree/main/Uniswap)
+- [ ] Uniswap
 
   - [x] v1
   - [ ] v2
@@ -56,7 +56,7 @@
 
 ### Hardhat
 
-- [ ] turorial
+- [x] turorial
 
 ### Foundry
 
