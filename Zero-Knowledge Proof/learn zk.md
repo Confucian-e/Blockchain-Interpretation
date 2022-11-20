@@ -2,7 +2,7 @@
 
 ## 逻辑框架
 
-![](../img/zk_framework.png)
+![](./img/zk_framework.png)
 
 ## 常见的算法
 
