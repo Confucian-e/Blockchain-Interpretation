@@ -90,4 +90,6 @@
 
 如果你觉得我的内容不错的话，欢迎来打赏🤣
 
+EVM链打赏：**0xDb35362814F9F23c387A524A554F8e25cedD151a**
+
 <img src="img/donate.jpg" alt="donate" style="zoom:33%"/>
