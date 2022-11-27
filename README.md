@@ -1,16 +1,24 @@
 # 区块链硬核解读
 
-对一些区块链硬核知识进行解读，侧重应用层。
+对一些区块链硬核知识进行解读，侧重应用层（智能合约、DApp）开发
 
-## OpenZeppelin Contracts
+笔者是一名区块链专业大学生，整理开源出来帮助大家的同时也顺便复习
 
-### Utilities
+## 概览
 
-- [x] SafeMath
+### OpenZeppelin Contracts
 
-- [ ] Access Control
+#### Utilities
+
+- [x] SafeMath——整数的安全四则运算（防止溢出）
+
+- [x] Context——包装 `msg.sender` `msg.data`
+
+- [x] Counters——简单计数器
+
+- [ ] Access Control——权限控制
   
-  - [x] Ownable
+  - [x] Ownable——所有者权限
   - [ ] Access Control
 
 - [ ] Cryptography
@@ -18,17 +26,17 @@
   - [ ] Checking Signatures On-Chain
   - [ ] Verifying Merkle Proofs
 
-### ERC
+#### ERC
 
-- [x] ERC20
+- [x] ERC20——同质化代币 FT
 
   - [x] Core
   - [ ] Extensions
   - [ ] Utilites
 
-- [x] ERC165
+- [x] ERC165——接口检测
 
-- [ ] ERC721
+- [ ] ERC721——非同质化代币 NFT
 
   - [ ] Core
 
@@ -38,9 +46,9 @@
 
 - [ ] ERC1155
 
-## Classic Dapp
+### Classic Dapp
 
-- [ ] Uniswap
+- [ ] Uniswap——Dex独角兽
 
   - [x] v1
   - [ ] v2
@@ -54,27 +62,33 @@
 
 - [ ] OpenSea
 
-## Framework
+### Framework
 
-### Hardhat
+#### Hardhat
 
 - [x] turorial
 
-### Foundry
+#### Foundry
 
 - [ ] tutorial
 
-## EIP
+### EIP
 
-### EIP-1559
+- [ ] EIP-1559
 
-## Zero-Knowledge Proof
+### Zero-Knowledge Proof
 
 - [x] 科普-了解什么是零知识证明
 - [x] 应用-哪些项目采用了零知识证明
 - [ ] 研究-零知识证明的相关理论
 
-## Read2Earn
+### Read2Earn
 
-收录区块链相关经典开源好书
+收录区块链相关经典开源好书，全部免费，在线/下载可阅读
+
+## 打赏
+
+如果你觉得我的内容不错的话，欢迎来打赏🤣
+
+<img src="img/Alipay.jpg" alt="Alipay" style="zoom:50%;" align=left/> <img src="img/wechat-pay.jpg" alt="wechat-pay" style="zoom:50%;" align=right/>
 
