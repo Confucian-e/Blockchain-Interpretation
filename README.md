@@ -90,6 +90,8 @@
 
 如果你觉得我的内容不错的话，欢迎来打赏🤣
 
-EVM链打赏：**0xDb35362814F9F23c387A524A554F8e25cedD151a**
+链上打赏钱包地址：**0xDb35362814F9F23c387A524A554F8e25cedD151a**
+
+> 支持 以太坊、Polygon(Matic)、bsc 等所有 EVM 链
 
 <img src="img/donate.jpg" alt="donate" style="zoom:33%"/>
