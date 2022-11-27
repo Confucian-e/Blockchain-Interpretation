@@ -90,5 +90,5 @@
 
 如果你觉得我的内容不错的话，欢迎来打赏🤣
 
-<img src="img/Alipay.jpg" alt="Alipay" style="zoom:50%;" align=left/> <img src="img/wechat-pay.jpg" alt="wechat-pay" style="zoom:50%;" align=right/>
+<img src="img/Alipay.jpg" alt="Alipay" style="zoom:25%;" align=left/> <img src="img/wechat-pay.jpg" alt="wechat-pay" style="zoom:25%;" align=right/>
 
