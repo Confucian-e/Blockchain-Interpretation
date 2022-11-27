@@ -1,6 +1,6 @@
 # Counters 计数器
 
-> 参考 [OpenZepelin官方文档](https://docs.openzeppelin.com/contracts/4.x/api/utils#Counters) 结合自己的理解
+> 参考 [OpenZeppelin官方文档](https://docs.openzeppelin.com/contracts/4.x/api/utils#Counters) 结合自己的理解
 
 一个只提供**增加**、**减少**、**重置**功能的计数器合约，用于追踪记录线性简单变化的元素数量。
 
@@ -42,7 +42,7 @@ library Counters {
 
 开篇定义一个 `Counter` 结构体，里面记录 `value` 字段，用于后续加减。
 
-### 函数
+### 函数功能
 
 入参都为存储在 `storage` 的 `Counter` 类型；但由于是库合约，所以通常以 `xx.current()` 的形式来调用。
 
