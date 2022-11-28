@@ -264,7 +264,7 @@ pragma solidity ^0.8.0;
 import "./IERC20.sol";
 import "./IERC20Metadata.sol";
 
-contract ERC20 is IERC20, IERC30Metadata {
+contract ERC20 is IERC20, IERC20Metadata {
     // 地址余额
     mapping(address => uint256) private _balances;
     // 授权地址余额
